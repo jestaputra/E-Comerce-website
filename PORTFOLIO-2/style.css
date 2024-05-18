@@ -524,31 +524,6 @@ footer {
   text-align: center;
 }
 
-.product {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-.card-body p {
-  text-align: right;
-  font-weight: 500;
-  font-size: 16px;
-}
-.card-body p span {
-  font-size: 20px;
-  cursor: pointer;
-}
-.plus {
-  color: green;
-  margin-right: 10px;
-}
-.minus {
-  color: red;
-}
-.product blockquote {
-  color: green;
-}
-
 /* ------------------------------SCREEN-------------------------------- */
 
 @media only screen and (max-width: 1300px) {
@@ -623,7 +598,9 @@ footer {
 }
 @media only screen and (max-width: 992px) {
   #show {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   main {
     position: relative;
